@@ -16,4 +16,5 @@ def solution(k, room_number):
     for room in room_number:
         result.append(find(table, room))
 
+
     return result
